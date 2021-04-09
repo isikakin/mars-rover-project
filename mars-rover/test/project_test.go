@@ -30,7 +30,7 @@ func TestRover(t *testing.T)  {
 	}
 }
 
-func TestMove(t *testing.T)  {
+func TestFailScenerio(t *testing.T)  {
 	t.Parallel()
 	area.InitArea(5,5)
 	r := rover.Setup(0,0,"W")
